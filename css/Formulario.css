@@ -1,0 +1,91 @@
+*{
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+}
+
+body{
+    background-image: url(/Multimedia/backgroud.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+#cuerpo{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(136, 136, 206, 0.5);
+
+}
+
+#caja{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(58, 58, 156, 0.8);
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+header{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+input{
+    color: black;
+}
+
+#role{
+    color: black;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#submit{
+    background-color: rgb(17, 133, 17);
+    color: white;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: white 0;
+}
+
+.cajadetexto{
+    height: 30px;
+}
+
+.seleccionar{
+    height: 30px;
+    color: black;
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+option{
+    color: black;
+}
+
+textarea{
+    color: black;
+}
