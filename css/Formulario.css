@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/Multimedia/backgroud.jpeg);
+    background-image: url(::/Multimedia/backgroud.jpeg);
     background-size: cover; 
     background-repeat: no-repeat;
 }
